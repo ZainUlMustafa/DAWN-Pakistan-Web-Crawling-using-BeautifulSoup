@@ -4,7 +4,7 @@ from datetime import datetime,timedelta
 
 dataset = []
 
-for i in range(0,500):
+for i in range(0,50):
 	date = str(datetime.today().date() - timedelta(days=i))
 
 	url = 'https://www.dawn.com/newspaper/business/'+date
