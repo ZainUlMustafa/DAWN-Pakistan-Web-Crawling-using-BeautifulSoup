@@ -3,8 +3,8 @@ import requests
 from datetime import datetime,timedelta
 
 dataset = []
-
-for i in range(0,50):
+day_count = 50
+for i in range(0,day_count):
 	date = str(datetime.today().date() - timedelta(days=i))
 
 	url = 'https://www.dawn.com/newspaper/business/'+date
